@@ -1,18 +1,20 @@
 <template>
   <div class="container">
-    <Catalog />
+    <Mypage />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+export default Vue.extend({
+  layout: 'mypage'
+})
 </script>
 
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
